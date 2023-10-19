@@ -1,0 +1,291 @@
+Welcome to the INP Web Checker Service!
+
+-----------------------------
+      MENU
+-----------------------------
+ r: request from a webserver
+ c: check request queue
+ v: view worker status
+ q: quit
+-----------------------------
+> $ r
+Enter ``server-domain-name/port``: $ 8.8.8.8/53
+** New request added: 8.8.8.8/53
+
+-----------------------------
+      MENU
+-----------------------------
+ r: request from a webserver
+ c: check request queue
+ v: view worker status
+ q: quit
+-----------------------------
+> $ r
+Enter ``server-domain-name/port``: $ 127.0.0.1/10000
+** New request added: 127.0.0.1/10000
+
+-----------------------------
+      MENU
+-----------------------------
+ r: request from a webserver
+ c: check request queue
+ v: view worker status
+ q: quit
+-----------------------------
+> $ v
+==== Worker Status ====
+Worker #1: [8.8.8.8/53] Success
+Worker #2: [127.0.0.1/10000] Get from local or private address is not allowed.
+=======================
+
+-----------------------------
+      MENU
+-----------------------------
+ r: request from a webserver
+ c: check request queue
+ v: view worker status
+ q: quit
+-----------------------------
+> $ c
+** No pending jobs.
+
+-----------------------------
+      MENU
+-----------------------------
+ r: request from a webserver
+ c: check request queue
+ v: view worker status
+ q: quit
+-----------------------------
+> $ r
+Enter ``server-domain-name/port``: $ 127.0.0.1/10000
+** New request added: 127.0.0.1/10000
+
+-----------------------------
+      MENU
+-----------------------------
+ r: request from a webserver
+ c: check request queue
+ v: view worker status
+ q: quit
+-----------------------------
+> $ r
+Enter ``server-domain-name/port``: $ 127.0.0.1/10000
+** New request added: 127.0.0.1/10000
+
+-----------------------------
+      MENU
+-----------------------------
+ r: request from a webserver
+ c: check request queue
+ v: view worker status
+ q: quit
+-----------------------------
+> $ c
+** No pending jobs.
+
+-----------------------------
+      MENU
+-----------------------------
+ r: request from a webserver
+ c: check request queue
+ v: view worker status
+ q: quit
+-----------------------------
+> $ v
+==== Worker Status ====
+Worker #1: [127.0.0.1/10000] Get from local or private address is not allowed.
+Worker #2: [127.0.0.1/10000] Get from local or private address is not allowed.
+=======================
+
+-----------------------------
+      MENU
+-----------------------------
+ r: request from a webserver
+ c: check request queue
+ v: view worker status
+ q: quit
+-----------------------------
+> $ r
+Enter ``server-domain-name/port``: $ inp111.zoolab.org 80
+** New request added: inp111.zoolab.org
+
+-----------------------------
+      MENU
+-----------------------------
+ r: request from a webserver
+ c: check request queue
+ v: view worker status
+ q: quit
+-----------------------------
+> $ v
+==== Worker Status ====
+Worker #1: [inp111.zoolab.org] Incorrect server/port format.
+Worker #2: [127.0.0.1/10000] Get from local or private address is not allowed.
+=======================
+
+-----------------------------
+      MENU
+-----------------------------
+ r: request from a webserver
+ c: check request queue
+ v: view worker status
+ q: quit
+-----------------------------
+> $ r
+Enter ``server-domain-name/port``: $ inp111.zoolab.org/80
+** New request added: inp111.zoolab.org/80
+
+-----------------------------
+      MENU
+-----------------------------
+ r: request from a webserver
+ c: check request queue
+ v: view worker status
+ q: quit
+-----------------------------
+> $ v
+==== Worker Status ====
+Worker #1: [inp111.zoolab.org] Incorrect server/port format.
+Worker #2: [inp111.zoolab.org/80] Connection refused
+=======================
+
+-----------------------------
+      MENU
+-----------------------------
+ r: request from a webserver
+ c: check request queue
+ v: view worker status
+ q: quit
+-----------------------------
+> $ r
+Enter ``server-domain-name/port``: $ inp111.zoolab.org/10000
+** New request added: inp111.zoolab.org/10000
+
+-----------------------------
+      MENU
+-----------------------------
+ r: request from a webserver
+ c: check request queue
+ v: view worker status
+ q: quit
+-----------------------------
+> $ v
+==== Worker Status ====
+Worker #1: [inp111.zoolab.org/10000] Connecting to 140.113.213.213:10000 ... (1)
+Worker #2: [inp111.zoolab.org/80] Connection refused
+=======================
+
+-----------------------------
+      MENU
+-----------------------------
+ r: request from a webserver
+ c: check request queue
+ v: view worker status
+ q: quit
+-----------------------------
+> $ r
+Enter ``server-domain-name/port``: $ 127.0.0.1/10000
+** New request added: 127.0.0.1/10000
+
+-----------------------------
+      MENU
+-----------------------------
+ r: request from a webserver
+ c: check request queue
+ v: view worker status
+ q: quit
+-----------------------------
+> $ v
+==== Worker Status ====
+Worker #1: [inp111.zoolab.org/10000] Connecting to 140.113.213.213:10000 ... (1)
+Worker #2: [127.0.0.1/10000] Get from local or private address is not allowed.
+=======================
+
+-----------------------------
+      MENU
+-----------------------------
+ r: request from a webserver
+ c: check request queue
+ v: view worker status
+ q: quit
+-----------------------------
+> $ r
+Enter ``server-domain-name/port``: $ 127.0.0.1/10000
+** New request added: 127.0.0.1/10000
+
+-----------------------------
+      MENU
+-----------------------------
+ r: request from a webserver
+ c: check request queue
+ v: view worker status
+ q: quit
+-----------------------------
+> $ v
+==== Worker Status ====
+Worker #1: [inp111.zoolab.org/10000] Connecting to 140.113.213.213:10000 ... (1)
+Worker #2: [127.0.0.1/10000] Get from local or private address is not allowed.
+=======================
+
+-----------------------------
+      MENU
+-----------------------------
+ r: request from a webserver
+ c: check request queue
+ v: view worker status
+ q: quit
+-----------------------------
+> $ c
+** No pending jobs.
+
+-----------------------------
+      MENU
+-----------------------------
+ r: request from a webserver
+ c: check request queue
+ v: view worker status
+ q: quit
+-----------------------------
+> $ c
+** No pending jobs.
+
+-----------------------------
+      MENU
+-----------------------------
+ r: request from a webserver
+ c: check request queue
+ v: view worker status
+ q: quit
+-----------------------------
+> $ r
+Enter ``server-domain-name/port``: $ inp111.zoolab.org/10000
+** New request added: inp111.zoolab.org/10000
+
+-----------------------------
+      MENU
+-----------------------------
+ r: request from a webserver
+ c: check request queue
+ v: view worker status
+ q: quit
+-----------------------------
+> $ v
+==== Worker Status ====
+Worker #1: [inp111.zoolab.org/10000] INP{9d156bb762dcc604804a7769be3b4990fb765304_637f01a9_d1ee6_eb7c2294950bd1ebfc75999756fa7473f12f2e3f}
+Worker #2: [inp111.zoolab.org/10000] Connecting to 140.113.213.213:10000 ... (1)
+=======================
+
+-----------------------------
+      MENU
+-----------------------------
+ r: request from a webserver
+ c: check request queue
+ v: view worker status
+ q: quit
+-----------------------------
+> $ v
+==== Worker Status ====
+Worker #1: [inp111.zoolab.org/10000] INP{9d156bb762dcc604804a7769be3b4990fb765304_637f01a9_d1ee6_eb7c2294950bd1ebfc75999756fa7473f12f2e3f}
+Worker #2: [inp111.zoolab.org/10000] Connection timed out
+=======================
