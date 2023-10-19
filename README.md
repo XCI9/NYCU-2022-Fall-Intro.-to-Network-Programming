@@ -1,5 +1,5 @@
 # NYCU-2022-Summer-Intro.-to-Network-Programming
-111-1 網路程式設計概論
+111-1 網路程式設計概論 黃俊穎教授
 
 - 共10次Lab、2次作業
   - 9/22 Lab1
